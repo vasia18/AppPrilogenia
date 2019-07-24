@@ -29,5 +29,4 @@ public class StartingScreenActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
 }
