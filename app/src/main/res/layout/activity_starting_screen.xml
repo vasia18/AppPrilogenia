@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
+    android:background="@drawable/fon1"
     android:padding="16dp"
     tools:context=".StartingScreenActivity">
 
@@ -16,13 +16,21 @@
         android:textColor="@color/black"
         android:textSize="35sp" />
 
+    <ImageView
+        android:background="@drawable/logoNew"
+        android:layout_marginBottom="35dp"
+android:layout_centerHorizontal="true"
+        android:layout_above="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <TextView
-        android:id="@+id/text_view_highs"
+        android:id="@+id/text_view_highscore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button_start_quiz"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="35dp"
         android:text="@string/highscore_0"
         android:textSize="20sp" />
 
@@ -33,10 +41,10 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/style_button_on_and_press"
-        android:paddingStart="25dp"
-        android:paddingEnd="25dp"
+        android:paddingStart="35dp"
+        android:paddingEnd="35dp"
         android:text="@string/start"
-        android:textColor="@color/colorTextButton"
+        android:textColor="@color/colorTextButtonWhite"
         android:textSize="18sp" />
 
 
