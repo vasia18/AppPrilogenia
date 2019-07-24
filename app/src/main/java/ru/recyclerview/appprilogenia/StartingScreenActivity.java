@@ -10,14 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StartingScreenActivity extends AppCompatActivity {
 
-    Button button_start_quiz;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_starting_screen);
 
-        button_start_quiz = (Button)findViewById(R.id.button_start_quiz);
+        Button button_start_quiz = findViewById(R.id.button_start_quiz);
         button_start_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
